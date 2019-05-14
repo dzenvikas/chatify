@@ -1,0 +1,12 @@
+.Sidebar {
+  background-color: #3b77c7;
+  width: 280px;
+  overflow-y: scroll;
+}
+.Title {
+  padding: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  border-top-left-radius: 15px;
+  background-color: #2b5fa5;
+}

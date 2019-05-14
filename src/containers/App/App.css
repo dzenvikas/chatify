@@ -1,0 +1,32 @@
+.App {
+  /* text-align: center; */
+  background-color: #fff;
+  height: 100vh;
+  overflow: auto;
+  color: white;
+}
+.App .Chatify {
+  background-color: white;
+  box-shadow: 0 2px 120px #3b77c7;
+  border-radius: 15px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  height: 1000px;
+  display: flex;
+  overflow: hidden;
+}
+.App .Chatify * {
+  z-index: 10;
+}
+
+.Logo_text {
+  text-align: center;
+  color: #cccccc;
+  font-size: 7rem;
+  top: 2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
