@@ -10,7 +10,6 @@ const App = () => {
   const { contacts, activeUserId, user } = store.getState();
   return (
     <div className="App">
-      <h1 className="Logo_text">Chatify</h1>
       <div className="Chatify">
         <Sidebar contacts={_.values(contacts)} />
         <Main activeUserId={activeUserId} user={user} />

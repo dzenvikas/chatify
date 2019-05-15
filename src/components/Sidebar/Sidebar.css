@@ -10,3 +10,13 @@
   border-top-left-radius: 15px;
   background-color: #2b5fa5;
 }
+
+@media (max-width: 460px) {
+  .Title {
+    display: none;
+  }
+
+  .Sidebar {
+    width: auto;
+  }
+}
