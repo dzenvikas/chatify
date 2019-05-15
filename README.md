@@ -9,4 +9,5 @@
 <div style="display:grid; width: 100%">
     <img src="./images/app-mobile.png" width="200" style="display: inline-block; margin: 40px auto 40px auto" />
 </div>
+
 ###### Developed by Vikas Kumar (@dzenvikas). Big thanks to [Ohans Emmanuel](https://medium.freecodecamp.org/@ohansemmanuel).
