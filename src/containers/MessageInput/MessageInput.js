@@ -9,8 +9,8 @@ const MessageInput = ({ value }) => {
   };
   const submitHandler = e => {
     e.preventDefault();
-    const { activeUserId, typing } = store.getState();
-    store.dispatch(sendMessage(activeUserId, typing));
+    const { activeUserId, typing, editingMessage } = store.getState();
+    store.dispatch(sendMessage(activeUserId, typing, editingMessage));
   };
   return (
     <form className="Message" onSubmit={submitHandler}>

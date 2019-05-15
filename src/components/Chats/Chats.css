@@ -26,6 +26,10 @@
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+.Chat.is_user_msg:hover {
+  cursor: pointer;
+  background: #346fbb;
+}
 
 @media (min-width: 576px) {
   .Chat {

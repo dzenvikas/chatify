@@ -3,6 +3,7 @@ import user from './user';
 import activeUserId from './activeUserId';
 import messages from './messages';
 import typing from './typing';
+import editingMessage from './editingMessage';
 import { combineReducers } from 'redux';
 
 export default combineReducers({
@@ -10,5 +11,6 @@ export default combineReducers({
   user,
   activeUserId,
   messages,
-  typing
+  typing,
+  editingMessage
 });

@@ -1,4 +1,8 @@
-import { SET_TYPING_VALUE, SEND_MESSAGE } from '../constants/action-types';
+import {
+  SET_TYPING_VALUE,
+  SEND_MESSAGE,
+  EDIT_MESSAGE
+} from '../constants/action-types';
 
 const typing = (state = '', action) => {
   switch (action.type) {
