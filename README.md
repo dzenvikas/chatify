@@ -6,6 +6,7 @@
 
 ![Alt text](./images/app-desktop.png?raw=true 'Chatify-desktop')
 
-![Alt text](./images/app-mobile.png?raw=true 'Chatify-mobile')
-
+<div style="display:grid">
+    <img src="./images/app-mobile.png" width="200" style="display: inline-block; margin: 40px auto 40px auto" />
+</div>
 ###### Developed by Vikas Kumar (@dzenvikas). Big thanks to [Ohans Emmanuel](https://medium.freecodecamp.org/@ohansemmanuel).
