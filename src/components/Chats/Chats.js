@@ -9,10 +9,28 @@ const Chat = ({ msg }) => {
 };
 
 class Chats extends Component {
+  constructor(props) {
+    super(props);
+    this.chatRef = React.createRef();
+  }
+
+  componentDidMount() {
+    this.scrollToBottom();
+  }
+  componentDidUpdate() {
+    this.scrollToBottom();
+  }
+
+  scrollToBottom = () => {
+    console.log(this.chatRef);
+
+    this.chatRef.current.scrollTop = this.chatRef.current.scrollHeight;
+  };
+
   render() {
     console.log(this.props.msgs);
     return (
-      <div className="Chats">
+      <div className="Chats" ref={this.chatRef}>
         {this.props.msgs.map(msg => {
           console.log(msg);
 

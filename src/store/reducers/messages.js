@@ -4,8 +4,6 @@ import _ from 'lodash';
 const messages = (state = getMessages(10), action) => {
   switch (action.type) {
     case SEND_MESSAGE:
-      console.log('STATE', state);
-
       const { id, value } = action.payload;
       const allUserMsgs = state[id];
       const number = +_.keys(allUserMsgs).pop() + 1;
